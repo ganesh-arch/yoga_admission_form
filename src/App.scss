@@ -1,0 +1,70 @@
+.App {
+	background-color: white;
+	position: relative;
+	height: 100vh;
+	background: linear-gradient(
+		154.9deg,
+		#53c79d 13.55%,
+		rgba(142, 231, 199, 0) 78.38%
+	);
+
+	display: flex;
+
+	h1 {
+		font-family: 'Tauri';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 25px;
+		letter-spacing: 0.05em;
+		margin-bottom: 16px;
+
+		color: #000000;
+		margin-bottom: 40px;
+	}
+	h6 {
+		font-family: 'Tauri';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 25px;
+		letter-spacing: 0.05em;
+
+		color: #000000;
+		// margin-bottom: 100px;
+	}
+
+	.form-container {
+		background-color: white;
+		width: 100%;
+		border-radius: 55px 0px 0px 55px;
+		padding: 80px;
+		max-height: 100vh;
+		overflow-y: scroll;
+
+		& > div {
+			max-height: 100%;
+		}
+	}
+
+	.loading-container {
+		display: flex;
+		height: 80vh;
+		justify-content: center;
+		align-items: center;
+		& > img {
+			width: 50px;
+		}
+	}
+
+	@media screen and (max-width: 940px) {
+		flex-direction: column;
+		height: unset;
+
+		.form-container {
+			border-radius: 32px 32px 0 0;
+			padding: 32px;
+			max-height: unset;
+		}
+	}
+}

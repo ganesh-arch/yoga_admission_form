@@ -1,0 +1,36 @@
+.custom-input__container {
+	width: 100%;
+
+	.custom-input {
+		border: none;
+		width: 100%;
+
+		border-bottom: 1px solid #acacac;
+		transform: rotate(-0.26deg);
+		font-family: 'Tauri';
+		font-weight: 400;
+		font-size: 20px;
+
+		&::placeholder {
+			letter-spacing: 0.05em;
+			color: #acacac;
+		}
+		&:focus {
+			outline: none;
+		}
+
+		&.error {
+			border-bottom: 1px solid red;
+		}
+		&.success {
+			border-bottom: 1px solid green;
+		}
+	}
+	.custom-input__error {
+		position: absolute;
+		font-size: 12px;
+		font-weight: 600;
+		margin-top: 4px;
+		color: red;
+	}
+}

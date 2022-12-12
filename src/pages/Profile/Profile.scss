@@ -1,0 +1,50 @@
+.profile {
+	position: relative;
+
+	h1 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.title {
+		font-family: Pacifico;
+		font-size: 80px;
+		// font-weight: 800;
+		background-color: #08aeea;
+		background-image: linear-gradient(0deg, #08aeea 0%, #2af598 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		margin-bottom: 40px;
+		text-align: center;
+
+		@media screen and (max-width: 1024px) {
+			font-size: 50px;
+		}
+		@media screen and (max-width: 426px) {
+			font-size: 40px;
+		}
+	}
+	.batches__container {
+		margin-bottom: 40px;
+	}
+
+	.logout-button {
+		background-color: rgb(255, 88, 88) !important;
+	}
+	.form-button {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.flex-items {
+		display: flex;
+		width: 100%;
+		flex: 1;
+		gap: 16px;
+
+		& > * {
+			flex: 1;
+		}
+	}
+}

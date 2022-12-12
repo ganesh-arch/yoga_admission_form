@@ -1,0 +1,32 @@
+.illustration__container {
+	font-family: tauri;
+	padding: 20px;
+	// min-width: 540px;
+
+	.illustration__title {
+		font-size: 28px;
+		color: white;
+	}
+
+	.illustration__quote {
+		color: white;
+		letter-spacing: 0.05em;
+		font-family: 'Tauri';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 25px;
+		margin-top: 55px;
+	}
+
+	& > div > svg {
+		height: 40vw !important;
+	}
+
+	@media screen and (max-width: 940px) {
+		& > div[role='button'] {
+			display: none;
+		}
+		padding-bottom: 40px;
+	}
+}
