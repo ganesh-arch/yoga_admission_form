@@ -3,7 +3,7 @@
 ## Tech stack used
 This assignment has simply used reactJS, CSS, Bootstrap, Javascript, Firebase Database- Firestore and for hosting , the firebase hosting has been taken into consideration.The screenshots for the website's Desktop and mobile view have been attached with this repository itself.
 ## ER Diagram
-<img src='capture.PNG'>
+<img src='capture.png'>
 
 <hr>
 
